@@ -711,6 +711,8 @@ add_library(
   cmTryRunCommand.h
   cmUnsetCommand.cxx
   cmUnsetCommand.h
+  cmGreetFriendsCommand.h
+  cmGreetFriendsCommand.cxx
   cmUseMangledMesaCommand.cxx
   cmUseMangledMesaCommand.h
   cmUtilitySourceCommand.cxx

@@ -1,0 +1,5 @@
+foreach(i RANGE 0 32 1)
+  message("i = ${i}")
+  greet_friends()
+  message("")
+endforeach()

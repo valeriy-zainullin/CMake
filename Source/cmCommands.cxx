@@ -86,6 +86,7 @@
 #include "cmTryCompileCommand.h"
 #include "cmTryRunCommand.h"
 #include "cmUnsetCommand.h"
+#include "cmGreetFriendsCommand.h"
 #include "cmWhileCommand.h"
 
 #if !defined(CMAKE_BOOTSTRAP)
@@ -165,6 +166,7 @@ void GetScriptingCommands(cmState* state)
   state->AddBuiltinCommand("site_name", cmSiteNameCommand);
   state->AddBuiltinCommand("string", cmStringCommand);
   state->AddBuiltinCommand("unset", cmUnsetCommand);
+  state->AddBuiltinCommand("greet_friends", cmGreetFriendsCommand);
 
   state->AddUnexpectedFlowControlCommand(
     "else",
